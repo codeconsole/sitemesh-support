@@ -39,11 +39,11 @@
 			<version>2.5</version>
 			<scope>provided</scope>
 		</dependency>
-	</dependencies>
+	</dependencies>	
 	<scm>
-		<connection>scm:git@github.com:codeconsole/sitemesh-support.git</connection>
-		<developerConnection>scm:git@github.com:codeconsole/sitemesh-support.git</developerConnection>
-		<url>git@github.com:codeconsole/sitemesh-support.git</url>
+		<connection>scm:git:git@github.com:codeconsole/sitemesh-support.git</connection>
+		<developerConnection>scm:git:git@github.com:codeconsole/sitemesh-support.git</developerConnection>
+		<url>http://github.com/codeconsole/sitemesh-support</url>
 	</scm>
 	<build>
 		<plugins>
