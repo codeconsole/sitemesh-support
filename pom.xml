@@ -9,7 +9,7 @@
 	<groupId>org.codeconsole.sitemesh</groupId>
 	<artifactId>sitemesh-support</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1.1.RELEASE</version>
+	<version>0.1.2-SNAPSHOT</version>
 	<name>sitemesh-support</name>
 	<organization>
 		<name>CodeConsole.org</name>
