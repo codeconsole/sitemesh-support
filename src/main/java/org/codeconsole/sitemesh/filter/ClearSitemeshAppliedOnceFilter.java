@@ -43,7 +43,10 @@ public class ClearSitemeshAppliedOnceFilter implements Filter {
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response,
 			FilterChain chain) throws IOException, ServletException {
-        request.removeAttribute("com.opensymphony.sitemesh.APPLIED_ONCE");
+		if (request.getAttribute("org.codeconsole.sitemesh.filter.CLEARED_ONCE") == null) {
+			request.setAttribute("org.codeconsole.sitemesh.filter.CLEARED_ONCE", true);
+			request.removeAttribute("com.opensymphony.sitemesh.APPLIED_ONCE");
+		}
         if (decorator != null) {
         	request.setAttribute("decorator", decorator);
         }
